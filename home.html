@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="assets/fav.png">
+    <title>CG VAK</title>
+
+    <style>
+        body {
+
+            /* background: linear-gradient(to right, #64b3f4, #c2e59c); */
+
+
+        }
+
+
+        .nav {
+
+            position: -webkit-fixed;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            height: 50px;
+
+            text-align: right;
+            background-color: #000000;
+            opacity: 98%;
+
+
+
+        }
+
+        .nav:hover {
+            background-color: rgb(109, 102, 102);
+            transition-duration: 1s;
+
+        }
+
+        .nav li {
+
+
+
+            font-size: 22px;
+            display: inline-block;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: rgb(253, 253, 253);
+            padding-left: 40px;
+
+
+
+
+
+
+        }
+
+        a:link {
+            text-decoration: dotted;
+            color: rgb(255, 255, 255);
+        }
+
+        a:visited {
+            color: azure;
+        }
+
+        a:hover {
+            font-size: 18px;
+            margin-left: 25px;
+            margin-right: 15px;
+            color: red;
+            transition-delay: 0.5ms;
+            transition-duration: 0.6s;
+
+
+        }
+
+        a:visited :hover {
+            font-size: 18px;
+            margin-left: 15px;
+            margin-right: 15px;
+            color: rgb(255, 0, 0);
+            transition-delay: 0.5ms;
+            transition-duration: 0.3s;
+
+
+        }
+
+
+
+        p,
+        h3 {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 33px;
+            text-align: center;
+            color: rgba(45, 98, 126, 0.884);
+        }
+
+        .heading li {
+            padding: 5px;
+            border: hidden;
+            border-radius: 5px;
+            background-color: #425eeb;
+            text-align: center;
+            display: inline-block;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: rgb(9, 81, 236);
+            margin-left: 170px;
+            margin-top: 10px;
+            font-size: 23px;
+
+        }
+
+        .heading a :hover {
+            font-size: 26px;
+
+            background-color: black;
+
+        }
+
+        .if {
+
+            margin-left: 15px;
+        }
+
+        .tech {
+            background-color: rgb(255, 255, 255);
+        }
+
+        .about {
+            margin-top: 120px;
+            margin-bottom: 120px;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .foot {
+            border: #8f9ddf solid 5px;
+            border-radius: 5px;
+            background: #435feb;
+        }
+
+        .foot li {
+            font-size: 18px;
+            margin-left: 30px;
+
+
+            display: inline-block;
+            text-align: right;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: rgb(255, 255, 255);
+            padding-left: 90px;
+
+
+        }
+
+        .foot pre {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: azure;
+            background-color: #435feb;
+            display: inline-block;
+
+            text-align: left;
+        }
+
+        #pre1 {
+            margin-top: 45px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 12px;
+            color: rgb(255, 255, 255);
+        }
+
+        #pre2 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 12px;
+            color: #ffffff;
+        }
+
+        #pre3 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 12px;
+            color: #ffffff;
+        }
+
+        .pre4 {
+            text-align: right;
+            float: right;
+        }
+
+        .ic {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            float: right;
+            color: rgb(255, 255, 255);
+            padding: 40px;
+            margin-right: 30px;
+
+        }
+
+        #ic1:hover {
+
+            height: 43px;
+            width: 43px;
+        }
+
+        .frame {
+            margin-top: 150px;
+            margin-bottom: 150px;
+        }
+
+        .offshore {
+            text-shadow: rgb(0, 242, 255) 1px 2px;
+
+            font-family: 'Poppins', sans-serif;
+            font-weight: 10px;
+            text-align: center;
+            padding-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <nav>
+
+        <div class="nav">
+
+            <img src="assets/logo22.png" alt="logo" style="float: left;margin-left: 15px;margin-top: 4px;height: 40px;">
+            <img src="assets/userlogo.png" alt="user_Logo"
+                style="height:40px;width: 35px; float:right; padding-right: 10px; padding-top: 2px;">
+            <ul>
+                <li><a href="home.html">HOME</a> </li>
+                <li><a href="#ab">ABOUT</a></li>
+                <li><a href="https://www.cgvakindia.com/contact-us/">CONTACT</a></li>
+                <li><a href="http://www.cgvakusa.com/">LOGIN</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <img src="assets/img3.jpg" alt="image1" style="height: 700px;width: 1390px;">
+    <!-- <img src=" assets/img 2.jpg" alt="image2" style="height: 640px;width: 640px;"> -->
+
+    <div class="about">
+        <h3 id="ab" style="text-align: center;">ABOUT US</h3>
+        <p id="ab">
+            CG-VAK is a multimillion-dollar public limited organization, with over two decades of time-tested experience
+            for
+            clients across the globe. As a leading offshore software development company headquartered in India, CG-VAK
+            employs over 220+ professionals across the globe.
+
+        </p>
+    </div>
+
+
+    <div class="tech">
+
+        <img src="assets/in1.jpg" alt="in1" style="height: 150px;width: 200px;margin-left: 215px;">
+        <img src="assets/in2.png" alt="in1" style="height: 110px;width: 130px;margin-left: 212px;">
+        <img src="assets/in3.png" alt="in1" style="height: 120px;width: 140px;margin-left: 260px;">
+        <div class="heading">
+            <ul>
+                <li><a href="https://www.cgvakindia.com/solutions/#product-realization">PRUDCT INNOVATION</a></li>
+                <li><a href="https://www.cgvakindia.com/solutions/#digital-innovations">DIGITAL INNOVATION</a></a></li>
+                <li><a href="https://www.cgvakindia.com/solutions/#microsoft">TECHNOLOGY INNOVATION</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="offshore">
+        <br>
+
+        <h1>Offshore Software Development Company</h1>
+        <h2>CG-VAK’s TechStack</h2>
+        <h3>From cutting edge to legacy, we help create innovative solutions.</h3>
+
+
+    </div>
+    <div class="frame">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.6232905844918!2d76.94597831402625!3d11.066844256793862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8f62494478a35%3A0x6a8ed8676640adfe!2sCG-VAK%20Software%20%26%20Exports%20Ltd%20-%20Unit%20II!5e0!3m2!1sen!2sin!4v1676564366200!5m2!1sen!2sin"
+            width="560" height="315" style="border:0;padding-left: 80px;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        <iframe style="padding-left: 80px;" width="560" height="315" src="https://www.youtube.com/embed/oR-ahlCLXKk"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+    </div>
+   
+    <div class="embedsocial-hashtag" data-ref="6ff9f18dda9d747f1160fe588140b0ff56a4cd7a">
+        <a class="feed-powered-by-es feed-powered-by-es-feed-new"
+            href="https://embedsocial.com/social-media-aggregator/" target="_blank" title="Widget by EmbedSocial">
+        </a>
+    </div>
+    <script>
+        (function (d, s, id) { var js; if (d.getElementById(id)) { return; } js = d.createElement(s); js.id = id; js.src = "https://embedsocial.com/cdn/ht.js"; d.getElementsByTagName("head")[0].appendChild(js); }(document, "script", "EmbedSocialHashtagScript"));
+    </script>
+    
+    <footer class="foot">
+
+
+
+        <pre id="pre1">
+            <span style="color: rgb(255, 255, 255);font-size: 25px;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: bolder;">CG VAK</span>
+            
+            A recognized Software 
+            Development Company. 
+            We help your businesses 
+            get innovative solutions 
+            and transformation with 
+            our Experts.
+        </pre>
+        <pre id="pre2">
+            <span style="color: rgb(255, 255, 255);font-size: 10px;font-family: Arial, Helvetica, sans-serif;font-weight: bolder;">LOCATIONS</span>
+
+            <span style="color: rgb(0, 0, 0);font-size: 10px;font-family: Arial, Helvetica, sans-serif;font-weight: bolder;">USA</span>
+            1661, Tice Valley Blvd,
+            Suite # 101,Walnut Creek,
+            California – 94595.
+            Call us: +1 (908) 737-7425
+        </pre>
+        <pre id="pre3">
+            <span style="color: rgb(0, 0, 0);font-size: 10px;font-family: Arial, Helvetica, sans-serif;font-weight: bolder;">INDIA</span>
+            171, Mettupalayam Road,
+            Coimbatore,
+            Tamil Nadu, India 641043.
+            +91-422-2434491/92/93
+        </pre>
+
+
+
+        <div class="ic">
+            <h1>follow us on</h1>
+
+            <a href="https://www.facebook.com/cgvakindia" target="_blank"><img id="ic1" src="assets/ic (1).png" alt="ic1"></a>
+            <a href="mailto:sales@cgvak.com.com" target="_blank"><img id="ic1" src="assets/ic (2).png" alt="ic1"></a>
+            <a href="https://mobile.twitter.com/cgvak/status/1516505975213420544" target="_blank"><img id="ic1" src="assets/ic (3).png"
+                    alt="ic1"></a>
+            <a href="https://in.linkedin.com/company/cg-vak-software-&-exports-ltd" target="_blank"><img id="ic1"
+                    src="assets/ic (4).png" alt="ic1"></a>
+            <a href="https://www.instagram.com/cgvak/?hl=en" target="_blank"><img id="ic1" src="assets/ic (5).png" alt="ic1"></a>
+            <!-- <pre class="4">
+            © 2023 - CG-VAK Software & Exports Ltd.
+            An ISO 9001:2015 Certified Company
+            </pre> -->
+        </div>
+
+
+
+
+
+</body>
+
+</html>
